@@ -1,9 +1,11 @@
-fizzBuzz = new function(number){
-        if(number % 3 === 0&& number % 5 === 0){
-            return "FizzBuzz";
+function fizzBuzz (number){
+    if(number % 3 === 0 && number % 5 === 0){
+            return number = "FizzBuzz";
         } else if (number % 3 === 0){
-            return "Fizz";
+            return number = "Fizz";
+        } else if (number % 5 === 0){
+            return number = "Buzz";
         } else {
-            return "Buzz";
+            return number;
         }
 }

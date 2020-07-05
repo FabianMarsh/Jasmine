@@ -1,24 +1,13 @@
-describe("Calculator", function(){
+describe("whatCanIDrink", function(){
 
         beforeEach(function(){
-            calc = new Calculator;
+            drink = new age;
         })
     
-    describe("Addition", function(){
-        it("Should return 42", function(){
-            calc.add(20);
-            calc.add(22);
-            expect(calc.value).toBe(42);
-        });
-        it("Should 26", function(){
-            calc.add(7);
-            calc.add(19);
-            expect(calc.value).toBe(26);
-        });
-        it("Should return an error if we don't supply two numbers", function(){
-            spyOn(window, "alert");
-            calc.add("Hitchhikers");
-            expect(window.alert).toHaveBeenCalledWith("Error!");
+    describe("whatCanIDrink", function(){
+        it("Should return Toddy", function(){
+            drink.add(13);
+            expect(drink.value).toBe(Toddy);
         });
     });
 });
